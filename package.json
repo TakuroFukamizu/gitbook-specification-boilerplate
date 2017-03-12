@@ -1,0 +1,26 @@
+{
+  "name": "gitbook-local-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "path_cli": "./node_modules/gitbook-cli/bin/gitbook.js"
+  },
+  "scripts": {
+    "init": "$npm_package_config_path_cli init",
+    "install": "$npm_package_config_path_cli install",
+    "serve": "$npm_package_config_path_cli serve",
+    "build": "$npm_package_config_path_cli build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-graph": "^0.1.0",
+    "gitbook-plugin-mermaid-gb3": "^2.0.0",
+    "gitbook-plugin-markdown-toc": "^1.0.0",
+    "gitbook-plugin-toc": "0.0.1",
+    "gitbook-plugin-uml": "^0.1.6"
+  }
+}

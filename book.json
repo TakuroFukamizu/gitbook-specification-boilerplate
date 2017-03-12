@@ -1,0 +1,17 @@
+{
+    "gitbook": ">=2.3.0",
+    "plugins": [
+        "graph",
+        "mermaid-gb3",
+        "uml",
+        "toc"
+    ],
+    "pluginsConfig": {
+        "mermaid-compat": {
+            "theme": "forest"
+        },
+        "uml": {
+            "format": "png"
+        }
+    }
+}
