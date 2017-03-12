@@ -27,12 +27,10 @@ Following plugins is installed.
 Change `your-book-name` to your book's name. and run it.
 
 ```bash
-export PJNAME=your-book-name && git clone --depth 1 https://github.com/TakuroFukamizu/gitbook-specification-boilerplate.git ${PJNAME} && cd ${PJNAME} && npm install && rm -fr .git
-
-npm run serve
-
-open http://localhost:4000
+export PJNAME=your-book-name && git clone --depth 1 https://github.com/TakuroFukamizu/gitbook-specification-boilerplate.git ${PJNAME} && cd ${PJNAME} && npm install && rm -fr .git && npm run serve
 ```
+
+open [http://localhost:4000](http://localhost:4000)
 
 
 ### Additional requirements
@@ -40,9 +38,9 @@ open http://localhost:4000
 #### gitbook-plugin-uml
 If you need uml plugin. you need following steps.
 
-[Install PlantUML.](http://plantuml.com/download) (Download plantuml.jar to root path)
+Step 1. [Install PlantUML.](http://plantuml.com/download) (Download plantuml.jar to root path)
 
-Install graphviz package.
+Step 2. Install graphviz package.
 
 ```bash
 $ brew install graphviz
