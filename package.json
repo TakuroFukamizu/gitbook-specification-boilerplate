@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "config": {
-    "path_cli": "./node_modules/gitbook-cli/bin/gitbook.js"
+    "path_cli": "./node_modules/.bin/gitbook"
   },
   "scripts": {
     "init": "$npm_package_config_path_cli init",
@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
     "gitbook-plugin-graph": "^0.1.0",
     "gitbook-plugin-mermaid-gb3": "^2.0.0",
     "gitbook-plugin-toc": "0.0.1",

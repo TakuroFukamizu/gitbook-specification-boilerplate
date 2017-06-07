@@ -4,6 +4,7 @@
         "graph",
         "mermaid-gb3",
         "uml",
+        "expandable-chapters",
         "toc"
     ],
     "pluginsConfig": {
