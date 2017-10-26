@@ -1,16 +1,14 @@
 {
   "name": "gitbook-local-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "config": {
-    "path_cli": "./node_modules/.bin/gitbook"
-  },
+  "config": {},
   "scripts": {
-    "init": "$npm_package_config_path_cli init",
-    "install": "$npm_package_config_path_cli install",
-    "serve": "$npm_package_config_path_cli serve",
-    "build": "$npm_package_config_path_cli build",
+    "init": "$(npm bin)/gitbook init",
+    "install": "$(npm bin)/gitbook install",
+    "serve": "$(npm bin)/gitbook serve",
+    "build": "$(npm bin)/gitbook build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,8 +17,10 @@
     "gitbook-cli": "^2.3.0",
     "gitbook-plugin-expandable-chapters": "^0.2.0",
     "gitbook-plugin-graph": "^0.1.0",
-    "gitbook-plugin-mermaid-gb3": "^2.0.0",
+    "gitbook-plugin-include-csv": "^0.1.0",
+    "gitbook-plugin-mermaid-gb3": "^2.1.0",
+    "gitbook-plugin-theme-api": "^1.1.2",
     "gitbook-plugin-toc": "0.0.1",
-    "gitbook-plugin-uml": "^0.1.6"
+    "gitbook-plugin-uml": "^0.1.10"
   }
 }
