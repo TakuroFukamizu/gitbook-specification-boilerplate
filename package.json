@@ -19,6 +19,7 @@
     "gitbook-plugin-graph": "^0.1.0",
     "gitbook-plugin-include-csv": "^0.1.0",
     "gitbook-plugin-mermaid-gb3": "^2.0.0",
+    "gitbook-plugin-theme-api": "^1.1.2",
     "gitbook-plugin-toc": "0.0.1",
     "gitbook-plugin-uml": "^0.1.6"
   }

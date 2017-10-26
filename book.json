@@ -2,6 +2,7 @@
     "gitbook": ">=2.3.0",
     "plugins": [
         "include-csv",
+        "theme-api",
         "graph",
         "mermaid-gb3",
         "uml",
@@ -14,6 +15,10 @@
         },
         "uml": {
             "format": "png"
+        },
+        "theme-api": {
+            "theme": "dark",
+            "split": true
         }
     }
 }

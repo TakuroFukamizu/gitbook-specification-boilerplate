@@ -20,6 +20,7 @@ Following plugins is installed.
 - [gitbook-plugin-uml](https://plugins.gitbook.com/plugin/uml)
 - [gitbook-plugin-mermaid-gb3](https://plugins.gitbook.com/plugin/mermaid-gb3)
 - [gitbook-plugin-graph](https://github.com/cjam/gitbook-plugin-graph)
+- [gitbook-plugin-theme-api](https://github.com/GitbookIO/theme-api)
 - [gitbook-plugin-include-csv](https://github.com/TakuroFukamizu/gitbook-plugin-include-csv)
 
 ## Get started
@@ -140,6 +141,23 @@ testdot
         ]
     }
 {% endgraph %}
+
+
+### theme-api
+
+{% method %}
+How to install GitBook API client.
+
+{% sample lang="js" %}
+```bash
+$ npm install gitbook-api
+```
+
+{% sample lang="go" %}
+```bash
+$ go get github.com/GitbookIO/go-gitbook-api
+```
+{% endmethod %}
 
 
 ### include-csv
