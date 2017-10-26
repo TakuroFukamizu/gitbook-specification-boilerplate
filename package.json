@@ -17,6 +17,7 @@
     "gitbook-cli": "^2.3.0",
     "gitbook-plugin-expandable-chapters": "^0.2.0",
     "gitbook-plugin-graph": "^0.1.0",
+    "gitbook-plugin-include-csv": "^0.1.0",
     "gitbook-plugin-mermaid-gb3": "^2.0.0",
     "gitbook-plugin-toc": "0.0.1",
     "gitbook-plugin-uml": "^0.1.6"

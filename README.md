@@ -20,7 +20,7 @@ Following plugins is installed.
 - [gitbook-plugin-uml](https://plugins.gitbook.com/plugin/uml)
 - [gitbook-plugin-mermaid-gb3](https://plugins.gitbook.com/plugin/mermaid-gb3)
 - [gitbook-plugin-graph](https://github.com/cjam/gitbook-plugin-graph)
-
+- [gitbook-plugin-include-csv](https://github.com/TakuroFukamizu/gitbook-plugin-include-csv)
 
 ## Get started
 
@@ -140,6 +140,15 @@ testdot
         ]
     }
 {% endgraph %}
+
+
+### include-csv
+
+{% includeCsv 
+    src="./csv/titanic.csv", 
+    useHeader="true",
+    limit=5 %}
+{% endincludeCsv %}
 
 
 ## License

@@ -1,6 +1,7 @@
 {
     "gitbook": ">=2.3.0",
     "plugins": [
+        "include-csv",
         "graph",
         "mermaid-gb3",
         "uml",
